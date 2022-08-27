@@ -6,11 +6,11 @@
                         <nav className="navbar sticky-top navbar-dark bg-dark navbar-expand-lg p-0">
                             <div className="container">
                                 <div>
-                                    <a href="/">
+                                    <router-link to="/">
                                         <span className="navbar-brand brand-nav" href="/">
                                             <img className="logo" src="../../assets/logo/logo.png" alt="handshake_logo" />
                                         </span>
-                                    </a>
+                                    </router-link>
                                 </div>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -20,30 +20,30 @@
                                 <div className="collapse navbar-collapse nav-item-container" id="navbarSupportedContent">
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 col-lg-9 nav-ul">
                                         <li className="nav-item">
-                                            <a href="/" :style="{textDecoration: 'none'}">
+                                            <router-link to="/" :style="{textDecoration: 'none'}">
                                              <!-- style={{ textDecoration: "none" }} -->
                                                 <span className="nav-link active nav-items" aria-current="page">Home</span>
-                                            </a>
+                                            </router-link>
                                         </li>
                                         <li className="nav-item">
-                                            <a href="/timeline" :style="{textDecoration: 'none'}">
+                                            <router-link to="/timeline" :style="{textDecoration: 'none'}">
                                              <!-- style={{ textDecoration: "none" }} -->
                                                 <span className="nav-link nav-items">Timeline</span>
-                                            </a>
+                                            </router-link>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <a href="/network" :style="{textDecoration: 'none'}">
+                                            <router-link to="/network" :style="{textDecoration: 'none'}">
                                              <!-- style={{ textDecoration: "none" }} -->
                                                 <span className="nav-link nav-items">
                                                     Network
                                                 </span>
-                                            </a>
+                                            </router-link>
                                         </li>
                                         <li className="nav-item" :style="{textDecoration: 'none'}">
-                                            <a href="/" :style="{textDecoration: 'none'}">
+                                            <router-link to="/" :style="{textDecoration: 'none'}">
                                             <!--  style={{ textDecoration: "none" }} -->
                                                 <span className="nav-link nav-items disabled">About</span>
-                                            </a>
+                                            </router-link>
                                         </li>
                                     </ul>
                                     <form className="d-flex" role="search">
