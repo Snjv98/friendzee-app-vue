@@ -211,7 +211,7 @@ export default {
             if (this.newPost) {
                 this.Posts.push({
                     desc: this.newPost,
-                    photo: require("@/assets/person/dog.jpg"),
+                    photo: require("@/assets/person/user6.jpg"),
                     date: "5 mins ago",
                     userId: 4,
                     like: 3,
