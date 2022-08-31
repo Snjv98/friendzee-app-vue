@@ -2,7 +2,7 @@
 
                 <section id="navigation-bar">
                 <div className="">
-                    <div className="row">
+                    <div className="row" :style="{'--bs-gutter-x': 0}">
                         <nav className="navbar sticky-top navbar-dark bg-dark navbar-expand-lg p-0">
                             <div className="container">
                                 <div>

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div>
-                        <img class="logo" src="../../src/assets/logo/logo.png" alt="handshake_logo" />
+                        <!-- <img class="logo" src="../../src/assets/logo/logo.png" alt="handshake_logo" /> -->
                         <router-link class="footer-brand-name" to="/">Friendzee</router-link>
                     </div>
 

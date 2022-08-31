@@ -44,6 +44,10 @@
     color: #fff !important;
     font-weight: 500;
 }
+#navbarSupportedContent{
+    text-align: left;
+    padding: 10px;
+}
 .navbar-toggler:focus, .navbar-toggler-icon:focus{
     /* outline: none; */
     box-shadow: none; /*This line is to remove shadow around the toggler icon(hamburger) in nav bar on clicking*/
@@ -97,6 +101,7 @@
 }
 #myProfile{
     position: relative;
+    background: #fff;
 }
 .image-prof {
     margin-top: -4rem;
@@ -326,7 +331,8 @@ body {
 
 /* ######sidebar##### */
 .activity-type {
-    padding: 10px 20px;
+    padding: 10px 0px;
+    text-align: left;
 }
 
 .post-time{
@@ -635,9 +641,9 @@ body {
 }
 
 @media screen and (max-width:425px) {
-   #content {
+   /* #content {
        margin-top: 9rem;
-   }
+   } */
 
    .reg-form-div {
        padding: 76px 12px;
